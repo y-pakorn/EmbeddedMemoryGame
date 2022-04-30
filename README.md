@@ -6,6 +6,9 @@ Dementia and Alzheimer's disease affect ten to thirty percent of the existing po
 
 So, using Arduino Mega 320 and other embedded electronics, we designed a memory stimulating recognition game to help avoid these diseases while also having fun.
 
+![S__84967459](https://user-images.githubusercontent.com/48324733/166116418-2ec3306a-9a32-4107-ad58-3c3e0a8afe46.jpeg)
+
+
 ## Parts
 
 |Part  |Amount  |
