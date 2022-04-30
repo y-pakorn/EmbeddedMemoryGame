@@ -31,7 +31,7 @@ So, using Arduino Mega 320 and other embedded electronics, we designed a memory 
 After the device is started, the LCD screen will show 2 varaints of information stream.
 
 - Current user and highscore
-- Temperature nd humidity
+- Temperature and humidity
 
 User's may correlate between current temperature and humidity and scores that user got in that period of time to determine whethere temperature and humidity have the effect to the user's brain or not.
 
@@ -45,7 +45,7 @@ Then finally the device will show current score that user got and back to the ma
 
 ## Usage
 
-The compilable source code is in `./project.ino` file. Dependencies that are required is listed below.
+The compilable source code is in `./project.ino` file. Dependencies that are required and modifiable settings are listed below.
 
 ### Dependencies
 
@@ -59,7 +59,7 @@ The compilable source code is in `./project.ino` file. Dependencies that are req
 The modifiable settings are
 
 - Numbers of pattern to memories, default to 6
-  - Adjustable by changing the `rSize` value in line `39` to desired value. More than 10 will be too overkill.
+  - Adjustable by changing the `rSize` value in line `39` to desired value. More than 10 will be too hard and overkill.
 - Delays between each blinking, default to 500ms
-  - Adjustable by changing the `delay` function parameters in line `154` and `156`. Less than 200ms will be too fast.a
+  - Adjustable by changing the `delay` function parameters in line `154` and `156` (in milliseconds). Less than 200ms will be too fast.a
 
